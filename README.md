@@ -37,7 +37,7 @@ Files:
     * **Loaded** the architecture.
     * Predicting the image. 
 
-4. ###Vgg architecture from scratch . ipynb:
+4. ### Vgg architecture from scratch . ipynb:
     * Created vgg-16 cnn architecture from scratch.
     * Architecture contains:
          1. convolution layers with zero padding layer. 
@@ -47,7 +47,7 @@ Files:
          4. 3rd dense layer with 1 ouput for cats and dogs ( in original there are 1000 outputs )
     * Tried to saved the model. 
 
-5. ###Advanced vgg architecture . ipynb:
+5. ### Advanced vgg architecture . ipynb:
    * **Splitting** the convolutional computation part & remaining part of the model.
    * used **bcolz** for faster run time. 
    * Reduced **underfitting**:
@@ -55,6 +55,10 @@ Files:
    * Reduced **overfitting**:
        * Data Augmentation.
        * Batch Normalization. 
+
+6. ### Fine tuning and Back Propagation:
+     * Fine tuning is to modify existing model and create a **secondary model**. 
+     * Doing Back Propagation in **few** lines  
             
        
    
